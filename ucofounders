@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>هم بنیانگذاران کسب و کار </title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://Ucofounders.com">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">صفحه اصلی</a></li>
+                <li><a href="#search">جستجوی اعضا</a></li>
+                <li><a href="#projects">پروژه‌ها</a></li>
+                <li><a href="#login" class="btn">ورود/ثبت‌نام</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home">
+            <h1>تیم رویایی خود را بسازید</h1>
+            <p>در وبسایت تیم‌سازی کسب و کار، شما می‌توانید بهترین استعدادها را برای پروژه‌های خود پیدا کنید.</p>
+            <a href="#search" class="btn">شروع جستجو</a>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2023 وبسایت تیم‌سازی کسب و کار. تمامی حقوق محفوظ است.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+body {
+    font-family: 'Vazir', Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    direction: rtl;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    padding: 1rem 2rem;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul li a {
+    color: #333;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #007bff;
+}
+
+main {
+    max-width: 1200px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+h1 {
+    font-size: 2.5rem;
+    color: #007bff;
+    margin-bottom: 1rem;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #007bff;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+document.addEventListener('DOMContentLoaded', function() {
+    console.log('سایت تیم‌سازی کسب و کار آماده است!');
+    // اینجا می‌توانیم کدهای JavaScript بیشتری اضافه کنیم
+});
+body {
+    font-family: 'Vazir', Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    direction: rtl;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 1rem;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    padding: 2rem;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>وبسایت تیم‌سازی کسب و کار</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">صفحه اصلی</a></li>
+                <li><a href="#search">جستجوی اعضا</a></li>
+                <li><a href="#projects">پروژه‌ها</a></li>
+                <li><a href="#login">ورود/ثبت‌نام</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home">
+            <h1>به وبسایت تیم‌سازی کسب و کار خوش آمدید</h1>
+            <p>اینجا می‌توانید تیم رویایی خود را برای کسب و کارتان پیدا کنید.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2023 وبسایت تیم‌سازی کسب و کار. تمامی حقوق محفوظ است.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
